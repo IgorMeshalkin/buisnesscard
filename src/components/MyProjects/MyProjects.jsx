@@ -3,8 +3,9 @@ import './MyProjects.css'
 import ProjectItem from "../ProjectItem/ProjectItem";
 import Arrow from "../UI/Arrows/Arrow";
 import Modal from "../Modal/Modal";
+import {forwardRef} from "react";
 
-const MyProjects = () => {
+const MyProjects = forwardRef((props, ref) => {
     const projectVisor = useRef()
     const projectsLine = useRef()
     const rightArrow = useRef()
@@ -139,7 +140,7 @@ const MyProjects = () => {
     }
 
     return (
-        <div className="myProjectMain">
+        <div className="myProjectMain" ref={ref}>
             <div className="paragraphTitle">Мои проекты</div>
             <div className="myProjectBlock">
                 <div className="myProjectLeft">
@@ -178,6 +179,6 @@ const MyProjects = () => {
             </div>
         </div>
     );
-};
+});
 
 export default MyProjects;

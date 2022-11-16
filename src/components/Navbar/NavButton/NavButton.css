@@ -1,0 +1,17 @@
+.navButtonMain {
+    height: 40px;
+    width: 80px;
+    border: 1px solid #E8E4E1;
+    margin: 5px;
+    color: #E8E4E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navButtonMain:hover {
+    border: 1px solid #0089D6;
+    color: #0089D6;
+}

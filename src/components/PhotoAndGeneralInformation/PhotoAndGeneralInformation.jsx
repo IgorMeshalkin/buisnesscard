@@ -3,8 +3,9 @@ import './PhotoAndGeneralInformation.css'
 import photo from "../../images/photo.png";
 import whatsApp from "../../images/whatsapp.png"
 import telegram from "../../images/telegram.png"
+import {forwardRef} from "react";
 
-const PhotoAndGeneralInformation = () => {
+const PhotoAndGeneralInformation = forwardRef((props, ref) => {
     function Photo() {
         return <img src={photo} className="photo"/>
     }
@@ -18,7 +19,7 @@ const PhotoAndGeneralInformation = () => {
     }
 
     return (
-        <div className="photoAndGeneralMain">
+        <div className="photoAndGeneralMain" ref={ref}>
             <div className="leftSide">
                 <Photo/>
             </div>
@@ -44,6 +45,6 @@ const PhotoAndGeneralInformation = () => {
             </div>
         </div>
     );
-};
+});
 
 export default PhotoAndGeneralInformation;

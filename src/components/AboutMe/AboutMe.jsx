@@ -1,14 +1,14 @@
-import React from 'react';
+import React, {forwardRef, useEffect, useRef, useState} from 'react';
 import './AboutMe.css'
 import picture from "../../images/about-me.png";
 
-const AboutMe = () => {
+const AboutMe = forwardRef((props, ref) => {
     function AboutMePicture() {
         return <img src={picture} className="aboutMePicture"/>
     }
 
     return (
-        <div className="aboutMeMain">
+        <div className="aboutMeMain" ref={ref}>
             <div className="paragraphTitle">О себе</div>
             <div className="aboutMeBlock">
                 <div className="aboutMeLeft">
@@ -37,6 +37,6 @@ const AboutMe = () => {
             </div>
         </div>
     );
-};
+});
 
 export default AboutMe;

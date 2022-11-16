@@ -1,14 +1,15 @@
 import React from 'react';
 import './Stack.css'
 import picture from '../../images/stack.png'
+import {forwardRef} from "react";
 
-const Stack = () => {
+const Stack = forwardRef((props, ref) => {
     function StackPicture() {
         return <img src={picture} className="stackPicture"/>
     }
 
     return (
-        <div className="stackMain">
+        <div className="stackMain" ref={ref}>
             <div className="paragraphTitle">Мой стэк</div>
             <div className="stackBlock">
                 <div className="stackLeft">
@@ -44,6 +45,6 @@ const Stack = () => {
             </div>
         </div>
     );
-};
+});
 
 export default Stack;
