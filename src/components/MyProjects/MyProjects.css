@@ -1,0 +1,92 @@
+.myProjectMain {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 55%;
+    min-width: 530px;
+}
+
+.myProjectBlock {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #222222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.myProjectLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    min-width: 40px;
+}
+
+.myProjectCenter {
+    width: 90%;
+    position: relative;
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.myProjectRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    min-width: 40px;
+}
+
+.projectsLine {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.leftSignal {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.rightSignal {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+@media (max-width: 600px) {
+    .myProjectMain {
+        width: 90%;
+        margin-left: 5px;
+        margin-right: 5px;
+        min-width: 350px;
+    }
+}
+
+
+
+
+
+
+
+

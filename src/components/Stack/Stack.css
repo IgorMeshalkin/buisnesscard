@@ -1,0 +1,88 @@
+.stackMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 50px;
+    width: 55%;
+    min-width: 530px;
+}
+
+.stackBlock {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.stackLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.stackRight {
+    width: 50%;
+}
+
+.stackFooter {
+    width: 100%;
+    background-color: #b2aba4;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.stackPicture {
+    height: 200px;
+}
+
+td {
+    height: 35px;
+    padding-right: 5px;
+    /*min-width: 210px;*/
+    font-size: 20px;
+}
+
+@media (max-width: 1150px) {
+    .stackLeft {
+        width: 45%;
+    }
+
+    .stackRight {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .stackBlock {
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+
+    .stackLeft {
+        width: 50%;
+    }
+
+    .stackRight {
+        margin-top: 20px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .stackMain {
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        min-width: 350px;
+    }
+
+    .stackFooter {
+        width: 95%;
+    }
+}

@@ -1,0 +1,38 @@
+.background {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.background.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.window {
+    padding: 15px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.5);
+    transition: 0.3s;
+}
+
+.window.active {
+    transform: scale(1);
+}
+
+.modalWindow {
+    width: 95%;
+}

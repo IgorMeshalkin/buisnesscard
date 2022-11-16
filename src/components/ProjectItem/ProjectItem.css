@@ -1,0 +1,92 @@
+.projectItemMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.projectItemName {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.projectItemDescription {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 90%;
+}
+
+.projectItemLink {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #222222;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.businessLunchScreenShot {
+    border: 1px solid #222222;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.allRealEstateScreenShot {
+    border: 1px solid #222222;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60%;
+}
+
+.employeeAccountingScreenShot {
+    border: 1px solid #222222;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.multithreadingGameScreenShot {
+    border: 1px solid #222222;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.realtorCalculatorScreenShot {
+    border: 1px solid #222222;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+}
+
+@media (max-width: 1200px) {
+    .businessLunchScreenShot {
+        width: 45%;
+    }
+
+    .multithreadingGameScreenShot {
+        width: 35%;
+    }
+
+    .realtorCalculatorScreenShot {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .businessLunchScreenShot {
+        width: 60%;
+    }
+
+    .multithreadingGameScreenShot {
+        width: 40%;
+    }
+
+    .realtorCalculatorScreenShot {
+        width: 30%;
+    }
+
+    .employeeAccountingScreenShot {
+        width: 90%;
+    }
+}
