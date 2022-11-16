@@ -1,4 +1,4 @@
-import React, {forwardRef, useEffect, useRef, useState} from 'react';
+import React, {forwardRef} from 'react';
 import './AboutMe.css'
 import picture from "../../images/about-me.png";
 
@@ -9,14 +9,15 @@ const AboutMe = forwardRef((props, ref) => {
 
     return (
         <div className="aboutMeMain" ref={ref}>
-            <div className="paragraphTitle">О себе</div>
+            <div className="paragraphTitle">Обо мне</div>
             <div className="aboutMeBlock">
                 <div className="aboutMeLeft">
                     <div className="aboutMeText">
-                        Программирую на Java полтора года. За это время написал несколько самостоятельных проектов, а
+                        Программирую на Java полтора года. За это время я написал несколько самостоятельных проектов, а
                         так же
-                        прошёл стажировку TopJava, где закрепил навыки работы в команде с использованием систем контроля
-                        версий.
+                        прошёл стажировку TopJava, где закрепил навыки работы в команде с использованием системы
+                        контроля
+                        версий git.
                     </div>
                     <div className="aboutMeText">
                         Владею английским языком на уровне чтения документации. В настоящее время продолжаю его
@@ -27,8 +28,7 @@ const AboutMe = forwardRef((props, ref) => {
                         деятельности в прошлом.
                     </div>
                     <div className="aboutMeText">
-                        В свободное время занимаюсь спортом, увлекаюсь плаванием.
-                        Но большую часть времени посвящаю развитию навыков программирования.
+                        В свободное время занимаюсь спортом. В последнее время особенно увлекаюсь плаванием.
                     </div>
                 </div>
                 <div className="aboutMeRight">

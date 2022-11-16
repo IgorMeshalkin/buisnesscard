@@ -30,7 +30,7 @@
     width: 100%;
     background-color: #b2aba4;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 18px;
     margin-top: 30px;
     box-sizing: border-box;
@@ -42,8 +42,7 @@
 
 td {
     height: 35px;
-    padding-right: 5px;
-    /*min-width: 210px;*/
+    padding-right: 20px;
     font-size: 20px;
 }
 

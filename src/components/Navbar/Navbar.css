@@ -12,6 +12,10 @@
     transition: 0.5s;
 }
 
+.navbarMain.none {
+    opacity: 0;
+}
+
 .navbarMain:hover {
     opacity: 1;
 }

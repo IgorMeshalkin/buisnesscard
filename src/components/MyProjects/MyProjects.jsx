@@ -1,9 +1,8 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {forwardRef, useEffect, useRef, useState} from 'react';
 import './MyProjects.css'
 import ProjectItem from "../ProjectItem/ProjectItem";
 import Arrow from "../UI/Arrows/Arrow";
 import Modal from "../Modal/Modal";
-import {forwardRef} from "react";
 
 const MyProjects = forwardRef((props, ref) => {
     const projectVisor = useRef()
@@ -16,7 +15,7 @@ const MyProjects = forwardRef((props, ref) => {
     const [projects, setProjects] = useState([
         {
             name: 'Business Lunch',
-            description: 'Сайт для выбора ресторана где можно пообедать. Выбор можно осуществить опираясь на рейтинг ресторана, почитав комментарии или найти ресторан с подходящим меню. В настоящее время по ссылке доступен код REST API, идёт работа над UI',
+            description: 'Сайт для выбора ресторана для обеда. Выбор осуществляется по рейтингу заведения, опираясь на комментарии или можно найти ресторан с подходящим меню. В настоящее время по ссылке доступен код REST API, идёт работа над UI',
             link: 'https://github.com/IgorMeshalkin/RestaurantVote'
         },
         {
@@ -26,17 +25,17 @@ const MyProjects = forwardRef((props, ref) => {
         },
         {
             name: 'Employee accounting',
-            description: 'Десктопное приложение для учёта сотрудников на предприятии. Каждый сотрудник относится к определённому отделу и получает зарплату согласно штатному расписанию в зависимости от своей должности',
+            description: 'Desktop приложение для учёта сотрудников на предприятии. Каждый сотрудник относится к определённому отделу и получает зарплату согласно штатному расписанию в зависимости от занимаемой должности',
             link: 'https://github.com/IgorMeshalkin/EmployeeAccounting'
         },
         {
             name: 'Multithreading game',
-            description: 'Программа является модулем многопоточной игры где пользователь может зарабатывать деньги для своего клана разными способами. Игрок может запустить любое количество событий одновременно, программа гарантирует корректное сохранение данных в базу',
+            description: 'Программа является модулем многопоточной игры где пользователь должен зарабатывать деньги для своего клана разными способами. Игрок может запустить любое количество событий одновременно, программа гарантирует корректное сохранение данных в базу',
             link: 'https://github.com/IgorMeshalkin/MultithreadingGame'
         },
         {
             name: 'Realtor calculator',
-            description: 'Калькулятор расчёта параметров сделок с недвижимостью для профессионалов. Активно используется моими бывшими коллегами, получено не мало положительных отзывов',
+            description: 'Калькулятор параметров сделок с недвижимостью. Предназначен для профессионалов. Активно используется моими бывшими коллегами.',
             link: 'https://github.com/IgorMeshalkin/RealtorCalculator'
         }
     ])

@@ -5,7 +5,6 @@ import employeeAccounting from '../../images/projects/employee-accounting.jpg'
 import multithreadingGame from '../../images/projects/multithreading-game.jpg'
 import businessLunch from '../../images/projects/business-lanch.jpg'
 import realtorCalculator from '../../images/projects/realtor-calculator.jpg'
-import Modal from "../Modal/Modal";
 
 const ProjectItem = ({currentProject, width, openModal}) => {
     const projectItemMain = useRef()

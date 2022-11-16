@@ -1,9 +1,8 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import './PhotoAndGeneralInformation.css'
 import photo from "../../images/photo.png";
 import whatsApp from "../../images/whatsapp.png"
 import telegram from "../../images/telegram.png"
-import {forwardRef} from "react";
 
 const PhotoAndGeneralInformation = forwardRef((props, ref) => {
     function Photo() {

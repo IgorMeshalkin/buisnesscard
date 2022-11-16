@@ -1,4 +1,4 @@
-import React, {forwardRef, useEffect, useRef} from 'react';
+import React, {forwardRef} from 'react';
 import './Arrow.css'
 
 const Arrow = forwardRef((props, ref) => (
