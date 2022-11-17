@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/buisnesscard/static/css/main.94ed1bda.css",
-    "main.js": "/buisnesscard/static/js/main.939006c5.js",
+    "main.js": "/buisnesscard/static/js/main.2c6c40f8.js",
     "static/js/787.bc412fff.chunk.js": "/buisnesscard/static/js/787.bc412fff.chunk.js",
     "static/media/realtor-calculator.jpg": "/buisnesscard/static/media/realtor-calculator.78430c1250c8229ac710.jpg",
     "static/media/photo.png": "/buisnesscard/static/media/photo.b49064dce2bb27f2512c.png",
@@ -15,11 +15,11 @@
     "static/media/whatsapp.png": "/buisnesscard/static/media/whatsapp.b01285052c7191cfa818.png",
     "index.html": "/buisnesscard/index.html",
     "main.94ed1bda.css.map": "/buisnesscard/static/css/main.94ed1bda.css.map",
-    "main.939006c5.js.map": "/buisnesscard/static/js/main.939006c5.js.map",
+    "main.2c6c40f8.js.map": "/buisnesscard/static/js/main.2c6c40f8.js.map",
     "787.bc412fff.chunk.js.map": "/buisnesscard/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94ed1bda.css",
-    "static/js/main.939006c5.js"
+    "static/js/main.2c6c40f8.js"
   ]
 }
