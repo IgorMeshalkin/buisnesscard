@@ -25,20 +25,16 @@ const PhotoAndGeneralInformation = forwardRef((props, ref) => {
             <div className="rightSide">
                 <div className="hello">Здравствуйте, меня зовут</div>
                 <div className="myName">Игорь Мешалкин</div>
-                <div className="generalText">Я backend программист на Java</div>
+                <div className="generalText">Software Developer</div>
 
                 <div className="contacts">
                     <div className="contact">
                         <WhatsApp/>
-                        <div className="contactValue">
-                            +7-962-500-03-73
-                        </div>
+                        <a className="contactValue" href="https://wa.me/+79625000373" target="_blank">+7-962-500-03-73</a>
                     </div>
                     <div className="contact">
                         <Telegram/>
-                        <div className="contactValue">
-                            @IgorMeshalkin
-                        </div>
+                        <a className="contactValue" href="https://t.me/IgorMeshalkin" target="_blank">@IgorMeshalkin</a>
                     </div>
                 </div>
             </div>

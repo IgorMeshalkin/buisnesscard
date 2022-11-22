@@ -1,13 +1,13 @@
 import React, {forwardRef} from 'react';
 import './Navbar.css'
 import NavButton from "./NavButton/NavButton";
-import useScrollPosition from "../../hooks/UseScrollPosition";
+import useScroll from "../../hooks/UseScroll";
 
 const Navbar = forwardRef((props, ref) => {
-    const scrollPosition = useScrollPosition()
+    const [scrollIsActive, scrollPosition] = useScroll()
 
     return (
-        <div className={scrollPosition > 100 ? "navbarMain" : "navbarMain none"} ref={ref}>
+        <div className={scrollIsActive || scrollPosition < 100 ? "navbarMain none" : "navbarMain"} ref={ref}>
             <NavButton onClick={props.onClick}>Начало</NavButton>
             <NavButton onClick={props.onClick}>Обо мне</NavButton>
             <NavButton onClick={props.onClick}>Стек</NavButton>

@@ -2,7 +2,6 @@
     display: flex;
     width: 60%;
     min-width: 530px;
-    /*margin-top: 20px;*/
     padding-top: 20px;
 }
 
@@ -61,10 +60,13 @@
 
 .contactValue {
     position: absolute;
+    color: #222222;
     left: 45px;
     bottom: 8px;
     font-size: 17px;
     white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {

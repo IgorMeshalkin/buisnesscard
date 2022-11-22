@@ -13,22 +13,22 @@ const AboutMe = forwardRef((props, ref) => {
             <div className="aboutMeBlock">
                 <div className="aboutMeLeft">
                     <div className="aboutMeText">
-                        Программирую на Java полтора года. За это время я написал несколько самостоятельных проектов, а
+                        Я начал программировать с простых задач на курсе <a href='https://javarush.com' className="link">JavaRush</a>. Позже, с ростом интереса,
+                        углублялся в сопутствующие технологии и фреймворки. В первую очередь Spring Framework.
+                    </div>
+                    <div className="aboutMeText">
+                        Изучал базы данных с помощью курсов на <a href='https://stepik.org' className="link">Stepik</a> и вскоре написал свой первый API. Позже мне захотелось самому делать весь цикл работы по созданию web-приложений и я параллельно занялся JavaScript.
+                    </div>
+                    <div className="aboutMeText">
+                        C тех я написал несколько самостоятельных проектов, а
                         так же
-                        прошёл стажировку TopJava, где закрепил навыки работы в команде с использованием системы
+                        прошёл стажировку <a href='https://topjava.ru/topjava' className="link">TopJava</a>, где закрепил навыки работы в команде с использованием системы
                         контроля
                         версий git.
                     </div>
                     <div className="aboutMeText">
                         Владею английским языком на уровне чтения документации. В настоящее время продолжаю его
                         изучение.
-                    </div>
-                    <div className="aboutMeText">
-                        Имею развитые soft skills благодаря опыту работы риэлтором и ведению предпринимательской
-                        деятельности в прошлом.
-                    </div>
-                    <div className="aboutMeText">
-                        В свободное время занимаюсь спортом. В последнее время особенно увлекаюсь плаванием.
                     </div>
                 </div>
                 <div className="aboutMeRight">

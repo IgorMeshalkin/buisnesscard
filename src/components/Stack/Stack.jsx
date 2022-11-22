@@ -18,10 +18,14 @@ const Stack = forwardRef((props, ref) => {
                     <table>
                         <tr>
                             <td>Spring Core</td>
-                            <td>JDBC API</td>
+                            <td>SQL(MySQL/Postgres)</td>
                         </tr>
                         <tr>
                             <td>Spring Security</td>
+                            <td>JDBC API</td>
+                        </tr>
+                        <tr>
+                            <td>Spring Data JPA</td>
                             <td>Hibernate</td>
                         </tr>
                         <tr>
@@ -30,11 +34,7 @@ const Stack = forwardRef((props, ref) => {
                         </tr>
                         <tr>
                             <td>ApacheMaven</td>
-                            <td>JUnit</td>
-                        </tr>
-                        <tr>
-                            <td>SQL(MySQL/PostgreSQL)</td>
-                            <td>Mockito</td>
+                            <td>JUnit/Mockito</td>
                         </tr>
                     </table>
                 </div>
