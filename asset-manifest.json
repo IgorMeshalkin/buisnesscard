@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/buisnesscard/static/css/main.bd08d210.css",
-    "main.js": "/buisnesscard/static/js/main.c303e666.js",
+    "main.js": "/buisnesscard/static/js/main.98ca259e.js",
     "static/js/787.bc412fff.chunk.js": "/buisnesscard/static/js/787.bc412fff.chunk.js",
     "static/media/realtor-calculator.jpg": "/buisnesscard/static/media/realtor-calculator.78430c1250c8229ac710.jpg",
     "static/media/photo.png": "/buisnesscard/static/media/photo.b49064dce2bb27f2512c.png",
+    "static/media/business-lanch.jpg": "/buisnesscard/static/media/business-lanch.e3ee6a44fc88d1858fb6.jpg",
     "static/media/telegram.png": "/buisnesscard/static/media/telegram.1a94fbf080934656fd39.png",
     "static/media/all-real-estate.jpg": "/buisnesscard/static/media/all-real-estate.2912fbd85656e8df4cc9.jpg",
     "static/media/employee-accounting.jpg": "/buisnesscard/static/media/employee-accounting.cb6756aef5377373113f.jpg",
-    "static/media/business-lanch.jpg": "/buisnesscard/static/media/business-lanch.aca5d3585a20f08e5563.jpg",
     "static/media/stack.png": "/buisnesscard/static/media/stack.9636bbf7b4e467aac9b7.png",
     "static/media/multithreading-game.jpg": "/buisnesscard/static/media/multithreading-game.902fa22851ad8381f0fb.jpg",
     "static/media/about-me.png": "/buisnesscard/static/media/about-me.c784e76b35f80719f741.png",
     "static/media/whatsapp.png": "/buisnesscard/static/media/whatsapp.b01285052c7191cfa818.png",
     "index.html": "/buisnesscard/index.html",
     "main.bd08d210.css.map": "/buisnesscard/static/css/main.bd08d210.css.map",
-    "main.c303e666.js.map": "/buisnesscard/static/js/main.c303e666.js.map",
+    "main.98ca259e.js.map": "/buisnesscard/static/js/main.98ca259e.js.map",
     "787.bc412fff.chunk.js.map": "/buisnesscard/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd08d210.css",
-    "static/js/main.c303e666.js"
+    "static/js/main.98ca259e.js"
   ]
 }
