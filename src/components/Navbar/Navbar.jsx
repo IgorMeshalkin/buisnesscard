@@ -7,7 +7,7 @@ const Navbar = forwardRef((props, ref) => {
     const [scrollIsActive, scrollPosition] = useScroll()
 
     return (
-        <div className={scrollIsActive || scrollPosition < 100 ? "navbarMain none" : "navbarMain"} ref={ref}>
+        <div className={scrollIsActive || scrollPosition < 100 || props.projectImgVision ? "navbarMain none" : "navbarMain"} ref={ref}>
             <NavButton onClick={props.onClick}>Начало</NavButton>
             <NavButton onClick={props.onClick}>Обо мне</NavButton>
             <NavButton onClick={props.onClick}>Стек</NavButton>

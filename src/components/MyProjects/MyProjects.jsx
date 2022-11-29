@@ -53,6 +53,10 @@ const MyProjects = forwardRef((props, ref) => {
     }, [])
 
     useEffect(() => {
+        props.setProjectImgVision(modal)
+    }, [modal])
+
+    useEffect(() => {
         if (arrowsPressed.right && limitPositions.right) {
             projectsLine.current.setAttribute('style', 'left:' + (linePosition - 10) + 'px')
             rightSignal.current.setAttribute('style', 'box-shadow: 0 0 30px 10px #847a70;')

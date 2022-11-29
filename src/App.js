@@ -3,7 +3,7 @@ import PhotoAndGeneralInformation from "./components/PhotoAndGeneralInformation/
 import AboutMe from "./components/AboutMe/AboutMe";
 import Stack from "./components/Stack/Stack";
 import MyProjects from "./components/MyProjects/MyProjects";
-import {useEffect, useRef} from "react";
+import {useEffect, useRef, useState} from "react";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
     const stackRef = useRef()
     const projectsRef = useRef()
     const navbarRef = useRef()
+
+    const [projectImgVision, setProjectImgVision] = useState(false)
 
     useEffect(() => {
         const windowWidth = window.innerWidth
@@ -43,10 +45,14 @@ function App() {
             <PhotoAndGeneralInformation ref={photoAndGeneralRef}/>
             <AboutMe ref={aboutMeRef}/>
             <Stack ref={stackRef}/>
-            <MyProjects ref={projectsRef}/>
+            <MyProjects
+                ref={projectsRef}
+                setProjectImgVision={setProjectImgVision}
+            />
             <Navbar
                 ref={navbarRef}
                 onClick={scrollHandler}
+                projectImgVision={projectImgVision}
             />
         </div>
     );
